@@ -1,0 +1,129 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 95% !important;
+    background: #34495e;
+    border-radius: 1rem;
+    padding: 10px;
+    
+}
+
+.navbar-brand img{
+    width: 80px;
+}
+
+.move-dropdown{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: -50px !important;
+    margin-right: 100px !important;
+    font-size: 1em;
+}
+@media only screen and (max-width: 1124px) {
+    .move-dropdown{
+        margin-right: 10px !important;
+    }
+  }
+.hover{
+    color: #fff !important;
+    justify-self: center !important;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.hover:hover{
+    opacity: 0.7;
+}
+
+.active{
+    color: green !important;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.main-post{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.post-box{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px;
+    border-radius: 1rem;
+}
+.post-box:hover{
+    margin-top: 10px;
+    /* transition-delay: 0.5s; */
+    transition-duration: 0.5s;
+}
+
+.post-box img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.post-info{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #e2336b;
+    border-radius: 50%;
+
+}
+
+.Year h3{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.Top-speed span{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.name-modelnumber span{
+font-size: 1.2em;
+font-weight: 600;
+}
+
+.Price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.hideit{
+    display: none !important;
+}
